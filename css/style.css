@@ -423,3 +423,131 @@ nav a {
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+
+    /* ====== NAV ====== */
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* ====== HERO / INICIO ====== */
+    .hero {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .hero-logo {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .hero-logo img {
+        height: 70px;
+    }
+
+    .hero-left {
+        clip-path: none;
+        padding: 20px;
+    }
+
+    .hero-left img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-right {
+        padding: 30px 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-right h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-right h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-right p {
+        font-size: 1rem;
+    }
+
+    .numero {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .numero span {
+        font-size: 3.5rem;
+    }
+
+    /* ====== INFORMACIÓN ====== */
+    .info-section {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .info-left,
+    .info-right {
+        width: 100%;
+        clip-path: none;
+        padding: 40px 20px;
+    }
+
+    .info-left img {
+        width: 120px;
+    }
+
+    .info-left h2 {
+        font-size: 1.8rem;
+    }
+
+    .info-right h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .vote-image-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .vote-image-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info-title {
+        font-size: 1.6rem;
+    }
+
+    .formacion-list li {
+        font-size: 0.95rem;
+    }
+
+    /* ====== CONTACTO ====== */
+    .contacto {
+        padding: 40px 15px;
+    }
+
+    .contacto-botones {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-img {
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .btn-img img {
+        object-fit: contain;
+    }
+}
